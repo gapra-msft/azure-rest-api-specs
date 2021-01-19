@@ -208,6 +208,7 @@
                     }
                 },
                 "x-ms-pageable": {
+                    "itemName": "ShareItems",
                     "nextLinkName": "NextMarker"
                 }
             },
@@ -2428,9 +2429,6 @@
                             "$ref": "#/definitions/StorageError"
                         }
                     }
-                },
-                "x-ms-pageable": {
-                    "nextLinkName": "NextMarker"
                 }
             },
             "parameters": [{

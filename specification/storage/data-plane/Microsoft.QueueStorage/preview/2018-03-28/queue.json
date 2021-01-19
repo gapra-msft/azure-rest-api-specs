@@ -303,6 +303,7 @@
           }
         },
         "x-ms-pageable": {
+          "itemName": "QueueItems",
           "nextLinkName": "NextMarker"
         }
       },
@@ -1747,7 +1748,7 @@
       "required": true,
       "type": "string",
       "x-ms-parameter-location": "method",
-      "description": "The container name."
+      "description": "The ID of the message."
     },
     "MessageTTL": {
       "name": "messagettl",

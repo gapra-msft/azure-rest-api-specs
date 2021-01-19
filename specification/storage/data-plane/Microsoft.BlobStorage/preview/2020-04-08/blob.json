@@ -318,6 +318,7 @@
           }
         },
         "x-ms-pageable": {
+          "itemName": "BlobContainerItems",
           "nextLinkName": "NextMarker"
         }
       },
@@ -2210,9 +2211,6 @@
               "$ref": "#/definitions/StorageError"
             }
           }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [
@@ -2314,9 +2312,6 @@
               "$ref": "#/definitions/StorageError"
             }
           }
-        },
-        "x-ms-pageable": {
-          "nextLinkName": "NextMarker"
         }
       },
       "parameters": [

@@ -2798,22 +2798,11 @@
     },
     "StorageError": {
       "type": "object",
-      "properties": {
-        "error": {
-          "type": "object",
-          "description": "The service error response object.",
-          "properties": {
-            "Code": {
-              "description": "The service error code.",
-              "type": "string"
-            },
-            "Message": {
-              "description": "The service error message.",
-              "type": "string"
+            "properties": {
+                "Message": {
+                    "type": "string"
+                }
             }
-          }
-        }
-      }
     }
   }
 }
